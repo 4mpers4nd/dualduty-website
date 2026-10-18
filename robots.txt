@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dualdutyjunk.com/sitemap.xml

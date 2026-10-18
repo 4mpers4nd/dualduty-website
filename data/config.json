@@ -1,0 +1,385 @@
+{
+  "business": {
+    "name": "Dual Duty Junk Removal",
+    "domain": "https://dualdutyjunk.com",
+    "base": "Spring City, Utah",
+    "status": "pre-launch",
+    "phone": null,
+    "email": null,
+    "hours": null,
+    "socials": [],
+    "founders": 2
+  },
+  "features": {
+    "quoteRequests": false,
+    "booking": false,
+    "paymentLinks": false,
+    "reviews": false,
+    "pricingEstimates": false
+  },
+  "integrations": {
+    "quoteRequestUrl": null,
+    "bookingUrl": null,
+    "paymentUrl": null,
+    "privacyReviewed": false
+  },
+  "pricing": {
+    "baseCharge": null,
+    "volumeRatePerYard": null,
+    "laborRatePerHour": null,
+    "disposalAllowance": null,
+    "heavyItemAdjustment": null,
+    "minimumCharge": null,
+    "travelCharges": {
+      "Spring City": null,
+      "Mount Pleasant": null,
+      "Ephraim": null,
+      "Manti": null,
+      "Moroni": null,
+      "Fairview": null,
+      "Fountain Green": null,
+      "Wales": null,
+      "Gunnison": null,
+      "Centerfield": null,
+      "Mayfield": null,
+      "Sterling": null,
+      "Fayette": null
+    },
+    "laborHours": {
+      "easy": null,
+      "moderate": null,
+      "difficult": null
+    },
+    "stairsHoursPerFlight": null,
+    "specialHandlingCharge": null
+  },
+  "trailer": {
+    "usableCubicYards": null,
+    "payloadLimitPounds": null
+  },
+  "areas": [
+    {
+      "name": "Spring City",
+      "lat": 39.4824631,
+      "lon": -111.4960236,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/spring-city-4/"
+    },
+    {
+      "name": "Mount Pleasant",
+      "lat": 39.5469073,
+      "lon": -111.4554659,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/mount-pleasant-134/"
+    },
+    {
+      "name": "Ephraim",
+      "lat": 39.3596842,
+      "lon": -111.5863052,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/ephraim/"
+    },
+    {
+      "name": "Manti",
+      "lat": 39.2682951,
+      "lon": -111.6368627,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/manti-2/"
+    },
+    {
+      "name": "Moroni",
+      "lat": 39.5249615,
+      "lon": -111.5904725,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/moroni/"
+    },
+    {
+      "name": "Fairview",
+      "lat": 39.626351,
+      "lon": -111.4396325,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/fairview-198/"
+    },
+    {
+      "name": "Fountain Green",
+      "lat": 39.6299598,
+      "lon": -111.635199,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/fountain-green-3/"
+    },
+    {
+      "name": "Wales",
+      "lat": 39.4869,
+      "lon": -111.6352,
+      "source": "https://fallingrain.com/world/US/UT/Wales.html"
+    },
+    {
+      "name": "Gunnison",
+      "lat": 39.1552391,
+      "lon": -111.8182582,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/gunnison-3/"
+    },
+    {
+      "name": "Centerfield",
+      "lat": 39.1252392,
+      "lon": -111.8190914,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/centerfield-5/"
+    },
+    {
+      "name": "Mayfield",
+      "lat": 39.114129,
+      "lon": -111.710754,
+      "source": "https://topoquest.com/place/utah/populated-place/mayfield/1443237"
+    },
+    {
+      "name": "Sterling",
+      "lat": 39.1936,
+      "lon": -111.6924,
+      "source": "https://mapcarta.com/Sterling_%28Utah%29"
+    },
+    {
+      "name": "Fayette",
+      "lat": 39.2252386,
+      "lon": -111.8565932,
+      "source": "https://www.topozone.com/utah/sanpete-ut/city/fayette-17/"
+    }
+  ],
+  "services": [
+    {
+      "id": "household",
+      "title": "General junk removal",
+      "tagline": "A little less stuff. A lot more space.",
+      "description": "Everyday household clutter, boxed belongings, and unwanted items. We plan to assess each load before agreeing to removal.",
+      "icon": "box",
+      "enabled": true
+    },
+    {
+      "id": "garage",
+      "title": "Garage cleanouts",
+      "tagline": "Make room for the car again.",
+      "description": "From storage overflow to forgotten projects, planned garage cleanouts focus on accessible, non-hazardous belongings. Chemicals, fuels, and unknown containers are excluded.",
+      "icon": "garage",
+      "enabled": true
+    },
+    {
+      "id": "basement",
+      "title": "Basement cleanouts",
+      "tagline": "Bring the space back to life.",
+      "description": "Clear unwanted stored items. Stair access, tight turns, item weight, and carrying distance must be reviewed first.",
+      "icon": "stairs",
+      "enabled": true
+    },
+    {
+      "id": "furniture",
+      "title": "Furniture removal",
+      "tagline": "The old sofa has had its moment.",
+      "description": "Sofas, chairs, tables, dressers, and mattresses are planned categories. Dimensions and safe access matter; oversized pieces need individual review.",
+      "icon": "sofa",
+      "enabled": true
+    },
+    {
+      "id": "appliances",
+      "title": "Appliance removal",
+      "tagline": "Big items. A thoughtful plan.",
+      "description": "Washers and other appliances may be accepted where disposal arrangements allow. Refrigerators and refrigerant-containing units need specific approval. We do not offer utility disconnection.",
+      "icon": "washer",
+      "enabled": true
+    },
+    {
+      "id": "yard",
+      "title": "Yard debris removal",
+      "tagline": "More yard. Less pile.",
+      "description": "Branches and bagged yard debris may be accepted after confirming local disposal arrangements. Soil, stumps, treated wood, and dense material need separate review.",
+      "icon": "leaf",
+      "enabled": true
+    },
+    {
+      "id": "moving",
+      "title": "Moving & property cleanouts",
+      "tagline": "A fresh start starts here.",
+      "description": "Planned help with unwanted belongings before or after a move. This is junk removal, not a moving or demolition service.",
+      "icon": "box",
+      "enabled": true
+    },
+    {
+      "id": "residential",
+      "title": "Small residential debris",
+      "tagline": "Finish the project. Clear the leftovers.",
+      "description": "Small amounts of non-hazardous residential debris may be considered. No demolition; concrete, roofing, and other dense loads require approval.",
+      "icon": "tools",
+      "enabled": true
+    },
+    {
+      "id": "commercial",
+      "title": "Light commercial removal",
+      "tagline": "Room for the next workday.",
+      "description": "Small office and shop clearouts are being considered, subject to approval before launch. No industrial waste or sensitive document destruction.",
+      "icon": "building",
+      "enabled": true
+    }
+  ],
+  "restrictedMaterials": [
+    "Hazardous waste & chemicals",
+    "Asbestos & unidentified materials",
+    "Fuels, explosives & pressurized hazards",
+    "Medical or biological waste",
+    "Liquid paint & solvents"
+  ],
+  "items": [
+    {
+      "id": "sofa",
+      "name": "Sofa",
+      "category": "Furniture",
+      "volume": 2.5,
+      "heavy": true,
+      "special": false
+    },
+    {
+      "id": "mattress",
+      "name": "Mattress",
+      "category": "Furniture",
+      "volume": 1.2,
+      "heavy": false,
+      "special": true
+    },
+    {
+      "id": "fridge",
+      "name": "Refrigerator",
+      "category": "Appliances",
+      "volume": 1.8,
+      "heavy": true,
+      "special": true
+    },
+    {
+      "id": "washer",
+      "name": "Washing machine",
+      "category": "Appliances",
+      "volume": 1,
+      "heavy": true,
+      "special": false
+    },
+    {
+      "id": "table",
+      "name": "Table",
+      "category": "Furniture",
+      "volume": 1,
+      "heavy": false,
+      "special": false
+    },
+    {
+      "id": "chair",
+      "name": "Chair",
+      "category": "Furniture",
+      "volume": 0.35,
+      "heavy": false,
+      "special": false
+    },
+    {
+      "id": "dresser",
+      "name": "Dresser",
+      "category": "Furniture",
+      "volume": 1.2,
+      "heavy": true,
+      "special": false
+    },
+    {
+      "id": "boxes",
+      "name": "Box",
+      "category": "Household",
+      "volume": 0.1,
+      "heavy": false,
+      "special": false
+    },
+    {
+      "id": "yard",
+      "name": "Yard debris (1 yd\u00b3)",
+      "category": "Yard & debris",
+      "volume": 1,
+      "heavy": false,
+      "special": false
+    },
+    {
+      "id": "junk",
+      "name": "Mixed household junk (1 yd\u00b3)",
+      "category": "Household",
+      "volume": 1,
+      "heavy": false,
+      "special": false
+    }
+  ],
+  "faqs": [
+    {
+      "category": "Launch",
+      "question": "Are you taking bookings yet?",
+      "answer": "Not yet. Dual Duty Junk Removal is in the planning stage. Online requests, scheduling, and payments are not available. A launch date has not been announced."
+    },
+    {
+      "category": "Services",
+      "question": "What are you planning to take?",
+      "answer": "General household junk, furniture, garage and basement clutter, moving cleanouts, and some yard debris are planned. Appliance, residential debris, and light commercial work require confirmation before launch."
+    },
+    {
+      "category": "Pricing",
+      "question": "How much will a pickup cost?",
+      "answer": "Company rates are not set. The load planner estimates volume and flags complexity without showing invented prices. Final prices will depend on the actual items, access, labor, travel, weight, and disposal costs."
+    },
+    {
+      "category": "Scheduling",
+      "question": "Can I reserve a date?",
+      "answer": "Scheduling is not open. The contact form is a disabled preview; entering a preferred date is not currently possible and does not reserve service."
+    },
+    {
+      "category": "Materials",
+      "question": "What materials are excluded?",
+      "answer": "We do not plan to accept hazardous waste, asbestos, chemicals, fuels, paint liquids, explosives, medical waste, or unidentified substances. Items requiring specialist handling must be discussed before any future pickup."
+    },
+    {
+      "category": "Materials",
+      "question": "Can you take refrigerators or mattresses?",
+      "answer": "These are included in the planner for estimating space, not as guaranteed accepted items. Refrigerant handling and mattress disposal arrangements must be confirmed."
+    },
+    {
+      "category": "Areas",
+      "question": "Where do you plan to operate?",
+      "answer": "Our operating base is Spring City. We plan to cover Sanpete County, including the 13 listed communities and surrounding rural areas. Exact address coverage and travel charges will need confirmation once inquiries open."
+    },
+    {
+      "category": "Disposal",
+      "question": "Will everything be recycled or donated?",
+      "answer": "No blanket promise. Our intention is to consider reuse, donation, and recycling where item condition, receiving facilities, and practical arrangements allow. No disposal partnerships are confirmed."
+    },
+    {
+      "category": "Preparation",
+      "question": "How should I prepare for a future pickup?",
+      "answer": "Identify only the items you want removed, keep belongings you want to retain separate, and plan a clear access route. Do not move heavy objects or disconnect utilities for the sake of an estimate. Specific instructions will be confirmed with the job."
+    },
+    {
+      "category": "Heavy items",
+      "question": "Can you remove very heavy items?",
+      "answer": "Weight and safe handling limits are still being determined. Pianos, safes, hot tubs, large machinery, concrete, and other unusually heavy items need individual approval and may be declined."
+    },
+    {
+      "category": "Scheduling",
+      "question": "Do you offer same-day service?",
+      "answer": "No same-day service or response time is promised. Availability and hours will be published when operations are ready."
+    },
+    {
+      "category": "Policies",
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellation and rescheduling policies are still being finalized. They will be provided before customers agree to a booking."
+    },
+    {
+      "category": "Payments",
+      "question": "Which payment methods do you accept?",
+      "answer": "Payment methods are not configured. This website does not request deposits or process payments. Accepted methods and payment timing will be published before launch."
+    },
+    {
+      "category": "Privacy",
+      "question": "Does the calculator send you my information?",
+      "answer": "No. The calculator works in your browser and saves only item selections and job factors on this device. It does not ask for a name, street address, email, phone number, or photos. Clear saved plan removes its stored data."
+    },
+    {
+      "category": "Services",
+      "question": "Are demolition and hazardous waste services available?",
+      "answer": "No. Demolition, hazardous waste disposal, and specialized removal services are outside the planned offering."
+    },
+    {
+      "category": "Pricing",
+      "question": "Is the load planner a binding quote?",
+      "answer": "No. Item volumes are editable planning assumptions, not measurements. Trailer capacity and weight limits are not yet confirmed. Even after real rates are configured, any price is preliminary and requires business confirmation."
+    }
+  ]
+}
